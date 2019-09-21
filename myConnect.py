@@ -8,8 +8,8 @@ class myConnect():
     def __init__(self):
         conn_cfg = {
             'host': 'localhost',
-            'user': 'root',
-            'password': 'my8015',
+            'user': 'xxx',
+            'password': 'xxx',
             'db': 'clubcase'
         }
         self.conn = pymysql.connect(**conn_cfg)
